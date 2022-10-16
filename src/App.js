@@ -30,7 +30,7 @@ function App() {
     <div id="container">
       <form onSubmit={convert}>
         <div>
-          <label>Eur</label>&nbsp;
+          <label>Eur</label> &nbsp;
           <input type="number" step="0.01"
           value={eur} onChange={e => setEur(e.target.value)}></input>
           <output>{rate}</output>
